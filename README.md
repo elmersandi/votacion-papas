@@ -17,12 +17,12 @@ Este proyecto es una aplicación web para votar por Papas Católicos. Cuenta con
 ## Pasos para probar el proyecto
 
 1. Clonar el repositorio:
-   ```bash
+   
    git clone https://github.com/elmersandi/votacion-papas.git
+
    cd votacion-papas
 
 2. Instalar dependencias en backend y frontend:
-
 
 cd backend
 npm install
@@ -35,28 +35,36 @@ npm install
 Crear un archivo .env en la carpeta backend con la variable:
 
 MONGO_URI=mongodb://localhost:27017/votaciondb
+
 (O usar tu conexión a MongoDB Atlas si prefieres)
+
 
 4. Ejecutar el seed para insertar los candidatos iniciales:
 
 cd ../backend/scripts
+
 node SeedCandidates.js
 
 
 5. Ejecutar el backend:
 
 cd ..
+
 npm start
+
 El servidor quedará escuchando en http://localhost:5000.
 
 
 6. Ejecutar el frontend:
 
 cd ../frontend
+
 npm run dev
+
 El frontend estará disponible en http://localhost:5173.
 
 Abrir el navegador y acceder a http://localhost:5173 para usar la aplicación.
+
 
 7. Funcionalidades principales
 
