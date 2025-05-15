@@ -7,9 +7,13 @@ Este proyecto es una aplicación web para votar por Papas Católicos. Cuenta con
 ## Resumen del proyecto
 
 - **Backend:** API REST con Express y MongoDB. Permite listar candidatos, agregar nuevos y votar por ellos.
+
 - **Seed:** Script para insertar 5 Papas Católicos famosos con nombre, descripción y votos iniciales en 0.
+
 - **Frontend:** React + Vite, que muestra los candidatos, permite votar y agregar nuevos candidatos. Muestra el ganador cuando un candidato llega a 10 votos.
+
 - **Comunicación:** El frontend consume el backend vía HTTP usando fetch.
+
 - **Repositorio:** Código organizado para fácil despliegue y pruebas.
 
 ---
@@ -25,8 +29,11 @@ Este proyecto es una aplicación web para votar por Papas Católicos. Cuenta con
 2. Instalar dependencias en backend y frontend:
 
 cd backend
+
 npm install
+
 cd ../frontend
+
 npm install
 
 
